@@ -17,14 +17,14 @@ using namespace std;
     Car carObj1;
     carObj1.brand="PORSCHE";
     carObj1.model="911 GT3";
-    carObj1.year="1999";
+    carObj1.year=1999;
     
     //create an object of car
     
     Car carObj2;
     carObj2.brand="FORD";
     carObj2.model="MUSTANG";
-    carObj2.year="1969"; 
+    carObj2.year=1969; 
     
     //PRINT ATTRIBUTE VALUE
     
