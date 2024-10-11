@@ -2,7 +2,7 @@
 using namespace std;
 
 //base class food item
-class fooditem
+class Fooditem
 {
   public :
   void fooditem()
@@ -11,31 +11,33 @@ class fooditem
   }
 };
 
-//derived class italian
-class italian : public fooditem
+//derived class Italian
+class Italian : public Fooditem
 {
   public :
   void italian()
   {
-    cout<<"i am an italian food item"<<endl;
+    cout<<"I am an italian food item"<<endl;
   }
 };
 
 //derived class for pasta
-class pasta : public italian
+class Pasta : public Italian
 {
   public :
   void pasta()
   {
-    cout<<"i am pasta"<<endl;
+    cout<<"I am pasta"<<endl;
   }
 };
 //create an object of pasta
 int main()
 {
-pasta mypasta;
-italian myitalian;
-fooditem myfooditem;
+Pasta f1;
+f1.pasta();
+f1.italian();
+f1.fooditem();
+
 
 return 0;
 }
